@@ -33,6 +33,7 @@ p {
 .portfolio .one-half figure, .portfolio .one-half figure a img {
 	height:270px;
 	width:270px;
+	object-fit: cover;
 }
 .portfolio .one-half figure img:hover {
 	margin-left:-45px;

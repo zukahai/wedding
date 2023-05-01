@@ -326,11 +326,11 @@ body {
 	float:right;
 }
 a, #groomsmen figure span, #groomsmen figure span:hover, #bridesmaid figure span:hover, .portfolio-container article figure:hover, .border:hover, #ourstory .post-thumb figure img:hover {
-	color:#c46d92;
+	/* color:#c46d92;
 	transition: all 300ms ease-in-out;
 	-moz-transition: all 300ms ease-in-out;
 	-webkit-transition: all 300ms ease-in-out;
-	-o-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out; */
 }
 a:active, a:hover {
 	transition: all 300ms ease-in-out;
@@ -363,7 +363,7 @@ nav.main-menu-container {
 	font-family: 'Bitter', serif;
 }
 #wedding, .title-bg, h1, .social-media, #ourstory .post-detail h3, .page-title h2 {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'NVN-Motherland-Signature', sans-serif;
 }
 body, input[type="text"], textarea, input[type="submit"], input[type="reset"] {
 	font-family: 'SanFranciscoDisplay-Light', serif;
@@ -536,8 +536,9 @@ nav.main-menu-container {
 	border-radius:50%;
 	height:450px;
 	width:450px;
-	margin-left:-20px;
-	margin-top:-5px;
+	/* margin-left:-50px; */
+	/* margin-top:-5px; */
+	/* scale: 1.1; */
 }
 .portfolio a img {
 	display:block;
