@@ -370,7 +370,7 @@ body, input[type="text"], textarea, input[type="submit"], input[type="reset"] {
 	font-weight:normal;
 }
 .invite {
-	font-family: 'SanFranciscoDisplay-Light', cursive;
+	font-family: 'SanFranciscoDisplay-Light', serif;
 }
 .footer-contact p, .main-menu-container ul li a, #wedding h2, .timeline .post-detail h2, .contact-details h3, ul.category-filter li a, .portfolio-container article h4 a, h3 { font-family: 'SanFranciscoDisplay', cursive; }
 /* =Main menu styles
@@ -477,7 +477,7 @@ nav.main-menu-container {
 }
 .invite {
 	display:inline-block;
-	font-family: 'SanFranciscoDisplay-Light', cursive;
+	font-family: 'SanFranciscoDisplay-Light', serif;
 	/* font-size:25px; */
 	margin-top:10px;
 }
