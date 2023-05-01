@@ -477,6 +477,7 @@ nav.main-menu-container {
 }
 .invite {
 	display:inline-block;
+	font-family: 'SanFranciscoDisplay-Light', cursive;
 	/* font-size:25px; */
 	margin-top:10px;
 }
