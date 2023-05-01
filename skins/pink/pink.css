@@ -8,8 +8,6 @@ body, #header, #rsvp .site-content, #registry, #direction .site-content, #photo,
 }
 #Logo a {
 	background:url(images/logo.png) center;
-	width: 96;
-	height: 78;
 }
 .theme-border-big {
 	border:7px solid #e29dbb;
