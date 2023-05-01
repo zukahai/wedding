@@ -477,7 +477,7 @@ nav.main-menu-container {
 }
 .invite {
 	display:inline-block;
-	font-size:25px;
+	/* font-size:25px; */
 	margin-top:10px;
 }
 .hr-grey {
