@@ -98,7 +98,7 @@ nav.main-menu-container {
 /* =ourstory styles
 -------------------------------------------------------------- */
 .portfolio-container article figure {
-	background:url(images/bg-border.jpg) repeat;
+	/* background:url(images/bg-border.jpg) repeat; */
 }
 #ourstory .post-detail {
 	background-color:#cd8da7;

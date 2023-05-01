@@ -842,8 +842,8 @@ ul.category-filter li a.active {
 }
 .portfolio-container article figure {
 	height:435.2px;
-	padding:5px;
-	width:290px;
+	padding:1px;
+	width:255px;
 }
 .portfolio-container article h4 {
 	font-size:16px;
@@ -1187,4 +1187,5 @@ footer {
 	height: 435.2px;
 	object-fit: cover;
 	filter: grayscale(0%);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
