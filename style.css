@@ -841,7 +841,7 @@ ul.category-filter li a.active {
 	text-align:center;
 }
 .portfolio-container article figure {
-	height:450px;
+	height:435.2px;
 	padding:5px;
 	width:290px;
 }
@@ -1184,6 +1184,6 @@ footer {
 
 .list-image{
 	width: 290px;
-	height: 450;
+	height: 435.2px;
 	object-fit: cover;
 }
