@@ -251,7 +251,7 @@ p{
 	font-size:18px;
 }
 #wedding h1 {
-	font-size:50px;
+	font-size:30px;
 }
 #home, #ourstory, #direction, #registry, #rsvp, #photo, #groomsmen, #bridesmaid {
 	padding-top:139px;
@@ -271,7 +271,7 @@ p{
 	width:200px;
 }
 .portfolio-container article figure img, .portfolio-container article figure, .portfolio-container article figure:hover img {
-	height:145px !important;
+	height:450px !important;
 	/* width:205px !important; */
 }
 .rsvp p.twocolumn span, .rsvp p span {
@@ -323,15 +323,16 @@ ul.category-filter li a {
 	padding:0 5px;
 }
 .portfolio .one-half figure img:hover {
-	margin-left:-100px;
-	margin-top:-25px;
+	/* margin-left:-100px;
+	margin-top:-25px; */
+	transform: scale(1.5);
 }
 #ourstory .post-thumb figure, #ourstory .post-thumb figure img {
 	height:100px;
 	width:100px;
 }
 .portfolio-container article figure {
-	height:145px !important;
+	height:450px !important;
 }
 .portfolio-container article figure img, .portfolio-container article figure {
 	width:245px;

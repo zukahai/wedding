@@ -458,7 +458,7 @@ nav.main-menu-container {
 	text-align:center;
 }
 #wedding h1 {
-	font-size:70px;
+	font-size:40px;
 	font-weight:normal;
 	margin-bottom:11px;
 }
@@ -466,6 +466,8 @@ nav.main-menu-container {
 	font-size:30px;
 }
 #wedding h2, #wedding h6, #wedding h3, .portfolio .title-bg {
+	font-family: 'SanFranciscoDisplay-Light', serif;
+	font-size: 20px;
 	font-weight:300;
 }
 #wedding h3 {
@@ -488,6 +490,7 @@ nav.main-menu-container {
 }
 .hr-white {
 	background-image: url(images/hr-white.png);
+	font-family: 'SanFranciscoDisplay-Light', serif;
 	background-repeat:no-repeat;
 	background-position:center bottom;
 	height: 29px;
@@ -571,6 +574,7 @@ nav.main-menu-container {
 }
 .page-title .parallax-cntr { height:300px; }
 .page-title h2 {
+	font-family: 'SanFranciscoDisplay-Light', serif;
 	color: #FFFEFE;
 	font-weight:normal;
 	font-size:50px;
@@ -837,7 +841,7 @@ ul.category-filter li a.active {
 	text-align:center;
 }
 .portfolio-container article figure {
-	height:205px;
+	height:450px;
 	padding:5px;
 	width:290px;
 }
@@ -1176,4 +1180,10 @@ footer {
 }
 .info-box a {
 	color:#2081b9;
+}
+
+.list-image{
+	width: 290px;
+	height: 450;
+	object-fit: cover;
 }
