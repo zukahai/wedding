@@ -1186,4 +1186,5 @@ footer {
 	width: 290px;
 	height: 435.2px;
 	object-fit: cover;
+	filter: grayscale(0%);
 }
