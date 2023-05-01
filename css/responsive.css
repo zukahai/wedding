@@ -1,0 +1,474 @@
+@charset "utf-8";
+/* CSS Document */
+.tinynav {
+	display:none;
+}
+/* =iPads (portrait and landscape)
+-------------------------------------------------------------- */
+@media only screen and (min-width:768px) and (max-width:1024px){
+.container {
+	width:708px;
+}
+p {
+	font-size:12px;
+}
+#Logo {
+	left:44%;
+}
+.main-menu-container ul {
+	font-size:10px;
+}
+.main-menu-container #RightNav {
+	width:306px;
+}
+.main-menu-container #LeftNav {
+	width:286px;
+}
+.main-menu-container ul li a {
+	padding:14px 9px;
+}
+.page-title .parallax {
+	width:100%;
+}
+.portfolio .one-half figure, .portfolio .one-half figure a img {
+	height:270px;
+	width:270px;
+}
+.portfolio .one-half figure img:hover {
+	margin-left:-45px;
+	margin-top:-20px;
+}
+.title-bg {
+	font-size:35px;
+}
+/* our story */
+
+.right .post-thumb:before { left:-1.8%; }
+.left .post-thumb:after { right:-1.7%; }
+
+.with-sidebar .post-thumb figure, .with-sidebar .post-thumb figure img { width:150px; height:150px; }
+.with-sidebar .post-thumb > figure { margin-top:29px; }
+.with-sidebar .left .post-thumb { margin-bottom:18px; }
+
+.right .post-thumb { padding-left:14%; }
+.left .post-thumb { padding-right:14%; }
+
+/* Direction */
+#direction iframe {
+	height:300px;
+	width:330px;
+}
+/* Clients */
+.clients .client-one, .clients .client-two, .clients .client-three {
+	width:100%;
+}
+.clients .client-one, .clients .client-two, .clients .client-three { background-size:100%; }
+/* RSVP */
+.rsvp p.twocolumn span {
+	margin-right:10px;
+	width:45.6%;
+}
+.rsvp p.twocolumn span input {
+	width:87.8%;
+}
+.rsvp p.float-right {
+	width:48%;
+}
+.rsvp p span textarea {
+	width:94%;
+}
+.rsvp p span input {
+	width:94.3%;
+}
+/* Photo */
+ul.category-filter li a, .category-filter li a span {
+	font-size:12px;
+} 
+.portfolio-container article {
+	margin-left:30px;
+	margin-right:15px;
+	margin-bottom:15px;
+}
+#groomsmen .entry-thumb, #bridesmaid .entry-thumb {
+	width:53.5%;
+}
+#groomsmen .entry-detail, #bridesmaid .entry-detail {
+	width:43%;
+}
+.ls-inner, .ls-layer, .ls-container.ls-fullwidth { width:100% !important; }
+}
+/* = Smaller than iPad Portrait 
+----------------------------------------------------- */
+@media only screen and (max-width:767px){
+.container {
+	width:420px;
+}
+.mobile-menu {
+	width:57%;
+}
+.page-title .parallax {
+	width:100%;
+}
+.page-title .parallax, .hr-white {
+	background-size:100% !important;
+}
+.main-menu-container .main-menu {
+	display:none;
+}
+#header {
+	height:161px;
+}
+#home {
+	padding-top:135px;
+}
+#ourstory, #direction, #registry, #rsvp, #photo, #groomsmen, #bridesmaid {
+	padding-top:161px;
+}
+.mobile-menu {
+	display:block;
+	margin-top:99px;
+}
+#Logo {
+	left:44%;
+	top:10px;
+}
+nav.main-menu-container {
+	display:none;
+}
+.social-media li {
+	font-size:16px;
+}
+#wedding h1 {
+	font-size:40px;
+}
+.portfolio .one-half figure, .portfolio .one-half figure a img {
+	height:270px;
+	width:270px;
+}
+.timeline .column .column { margin-left:2%; }
+.timeline .column .column.first { margin-left:0; }
+
+.right .post-thumb:before { left:-1%; }
+.left .post-thumb:after { right:-1.7%; bottom:61px; }
+
+.post-thumb figure { margin-top:40px; }
+.post-thumb figure, .post-thumb figure img { height:130px; width:130px; }
+
+.with-sidebar .left .post-thumb { margin-bottom:27px; }
+
+#direction iframe {
+	height:300px;
+	width:400px;
+}
+.category-filter li a.active{
+	height:auto;
+}
+.category-filter li a span {
+	font-size:12px;
+	padding:0 7px;
+}
+ul.category-filter, #groomsmen article, #bridesmaid article{
+	text-align:center;
+}
+.portfolio-container article {
+	margin-left:16%;
+}
+#groomsmen figure, #bridesmaid figure{
+	background-size:100%;
+}
+#groomsmen .entry-thumb, #bridesmaid .entry-thumb {
+	width:93%;
+}
+#groomsmen figure.float-left, #groomsmen figure.float-right, #bridesmaid figure.float-left, #bridesmaid figure.float-right{
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:15px;
+}
+#groomsmen .entry-detail, #bridesmaid .entry-detail, .rsvp p.float-right {
+	width:100%;
+}
+/* RSVP */
+.rsvp p {
+	margin-right:0;
+	width:100%;
+}
+.rsvp p.twocolumn span {
+	margin-right:10px;
+	width:46.2%;
+}
+.rsvp p.float-right { margin-top:0; }
+.rsvp p span textarea {
+	width:95%;
+}
+.rsvp .custom-radio label {
+	margin-right:10px;
+}
+#direction, .icon-envelope-alt {
+	text-align:center;
+}
+#address ul li {
+	text-align:center;
+	width:100%;
+}
+#address ul li address, #address ul li a {
+	width:100%;
+}
+#address ul li .icon-flag, #address ul li .icon-phone, .icon-envelope-alt {
+	float:none;
+}
+#bridesmaid figure.float-right {
+	float:left;
+	margin-left:3%;
+}
+}
+/* =iPhone (portrait)
+-------------------------------------------------------------- */
+@media only screen and (max-width:479px) {
+.container {
+	width:260px;
+}
+#menu ul{
+	display:none;
+}
+p{
+	font-size:11px;
+}
+#Logo {
+	left:36%;
+}
+.mobile-menu {
+	width:67%;
+}
+#wedding {
+	font-size:13px;
+}
+#wedding h2 {
+	font-size:15px;
+}
+#wedding h3 {
+	font-size:18px;
+}
+#wedding h1 {
+	font-size:20px;
+}
+#home, #ourstory, #direction, #registry, #rsvp, #photo, #groomsmen, #bridesmaid {
+	padding-top:139px;
+}
+.page-title .parallax, .page-title .parallax-cntr {
+	height:150px;
+}
+.page-title h2 {
+	padding-top:39px;
+	font-size:20px;
+}
+.hr-white {
+	padding-bottom:19px;
+}
+.portfolio .one-half figure, .portfolio .one-half figure a img {
+	height:200px;
+	width:200px;
+}
+.portfolio-container article figure img, .portfolio-container article figure, .portfolio-container article figure:hover img {
+	height:auto !important;
+	width:205px !important;
+}
+.rsvp p.twocolumn span, .rsvp p span {
+	margin-bottom:5px;
+	width:93%;
+}
+.rsvp p.twocolumn span input {
+	width:92%;
+}
+.rsvp p span input {
+	width:91.7%;
+}
+.rsvp p.float-right { margin-top:0; }
+.rsvp p.float-right span {
+	width:91.7%;
+}
+.rsvp p span textarea {
+	width:92%;
+}
+.page-bottom-bg {
+	background-size:92% !important;
+}
+/*----*****---- << Our Story >> ----*****----*/
+.post-thumb figure, .post-thumb figure img { width:100px; height:100px; }
+
+.right .post-thumb { padding-left:10%; }
+
+.right .post-thumb, .left .post-thumb { margin-top:50px; background-position:center 57px; } 
+.right .post-thumb:before { top:98px; }
+.left .post-thumb:after { bottom:43px; }
+.with-sidebar .left .post-thumb:after { bottom:74px; }
+
+.right .post-detail { margin-right:0; }
+.post-detail h3 { display:inline-block; width:100%; float:none; }
+.event.right .post-thumb, .event.left .post-thumb { background:url(images/post-thum-dotted-lines.png) repeat-x scroll center 57px rgba(0, 0, 0, 0); }
+
+.pagination li { margin-bottom:5px; }
+.post-thumb figure { margin-top:0px; }
+.left .post-thumb { padding-right:10%; }
+.featured-post { font-size:12px; padding:5px; }
+
+.event.right .post-thumb, .event.left .post-thumb { background: none !important; }
+
+ul.category-filter li a {
+	font-size:12px;
+}
+.category-filter li a span {
+	font-size:11px;
+	padding:0 5px;
+}
+.portfolio .one-half figure img:hover {
+	margin-left:-100px;
+	margin-top:-25px;
+}
+#ourstory .post-thumb figure, #ourstory .post-thumb figure img {
+	height:100px;
+	width:100px;
+}
+.portfolio-container article figure {
+	height:145px !important;
+}
+.portfolio-container article figure img, .portfolio-container article figure {
+	width:245px;
+}
+.portfolio-container article {
+	margin-left:1%;
+}
+#direction iframe {
+	height:240px;
+	width:93%;
+}
+.rsvp p.submit-bg  {
+	float:right;
+	margin-right:15px !important;
+}
+#groomsmen figure .thumb, #groomsmen figure .thumb img, #bridesmaid figure .thumb, #bridesmaid figure .thumb img{
+	height:175px;
+	width:140px;
+}
+#groomsmen .entry-thumb, #bridesmaid .entry-thumb, #groomsmen .entry-detail, #bridesmaid .entry-detail {
+	width:100%;
+}
+#bridesmaid figure .thumb .social, #groomsmen figure .thumb .social {
+	left:5px;
+}
+#groomsmen figure.float-left, #groomsmen figure.float-right, #bridesmaid figure.float-left, #bridesmaid figure.float-right {
+	float:left;
+}
+.clients .client-one, .clients .client-two, .clients .client-three {
+	background-size:97% !important;
+	width:100%;
+}
+#bridesmaid figure.float-right {
+	margin-left:0;
+}
+.page-bottom-bg { width:100%; }
+footer { padding-bottom:20px; }
+}
+@media only screen and (max-width:259px) {
+.container {
+	width:220px;
+}
+#menu ul{
+	display:none;
+}
+#Logo {
+	left:28%;
+}
+.site-content {
+	margin-top:50px;
+}
+.page-title h2 {
+	background-position:0 80px;
+	font-size:20px;
+	padding-top:49px;
+}
+.portfolio .one-half figure, .portfolio .one-half figure img {
+	height:200px;
+	width:200px;
+}
+#ourstory .left, #ourstory .right {
+	width:100%;
+}
+#ourstory .post-detail{
+	padding-left:10px;
+	padding-right:10px;
+	width:89.6%;
+}
+.rsvp p.twocolumn span {
+	width:95.5%;
+}
+.rsvp p.twocolumn span input {
+	width:91%;
+}
+.rsvp p span {
+	width:95%;
+}
+.rsvp p span input {
+	width:91%;
+}
+.rsvp p.float-right span {
+	width:95.7%;
+}
+.rsvp p span textarea {
+	width:90.5%;
+}
+.clients figure {
+	margin-bottom:10px;
+}
+.clients figure img {
+	width:100%;
+}
+.portfolio-container article figure img, .portfolio-container article figure {
+	width:206px;
+}
+.portfolio-container article figure {
+	height:146px;
+}
+.social-media, .page-bottom-bg {
+	margin-bottom:10px;
+}
+.hr-white {
+	background-position:0px 158px;
+}
+.post-detail {
+	width:91.5%;
+}
+.banner {
+	display:none;
+}
+#ourstory .left {
+	display:none;
+}
+#ourstory .right {
+	margin-bottom:20px;
+}
+#ourstory .right .post-thumb {
+	padding-left:55px;
+}
+#ourstory .post-thumb {
+	width:77%;
+}
+#groomsmen figure .thumb, #bridesmaid figure .thumb{
+	height:190px;
+	width:140px;
+}
+#groomsmen figure .thumb img, #bridesmaid figure .thumb img {
+	height:190px;
+	width:140px;
+}
+#groomsmen article, #bridesmaid article {
+	margin-bottom:15px;
+}
+#bridesmaid figure.float-right {
+	margin-left:0;
+}
+#direction iframe {
+	height:240px;
+	width:96%;
+}
+}

@@ -1,0 +1,371 @@
+/* LayerSlider Dark Skin */
+
+
+
+.ls-darkskin {
+	float:left;
+/*	padding: 5px;
+	background: #222;
+	box-shadow: 0px 3px 15px -5px #000;
+	-moz-box-shadow: 0px 3px 15px -5px #000;
+	-webkit-box-shadow: 0px 3px 15px -5px #000;
+	border-radius: 6px; 
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px; */
+}
+.ls-darkskin .ls-playvideo {
+	width: 50px;
+	height: 50px;
+	margin-left: -25px;
+	margin-top: -25px;
+}
+.ls-darkskin .ls-playvideo,
+.ls-darkskin .ls-nav-sides,
+.ls-darkskin .ls-bottom-slidebuttons a,
+.ls-darkskin .ls-nav-prev,
+.ls-darkskin .ls-nav-next,
+.ls-darkskin .ls-nav-start,
+.ls-darkskin .ls-nav-stop {
+	background-image: url(skin.png);	
+}
+
+.ls-darkskin .ls-playvideo {
+	background-position: -300px -150px;
+}
+
+.ls-darkskin .ls-playvideo:hover,
+.ls-darkskin .ls-vpcontainer:hover .ls-playvideo {
+	background-position: -375px -150px;
+}
+
+.ls-darkskin .ls-nav-prev {
+	background-position: 0px 0px;
+}
+
+.ls-darkskin .ls-nav-prev:hover {
+	background-position: 0px -60px;
+}
+
+.ls-darkskin .ls-nav-next {
+	background-position: -20px 0px;
+}
+
+.ls-darkskin .ls-nav-next:hover {
+	background-position: -20px -60px;
+}
+
+.ls-darkskin .ls-nav-start {
+	background-position:-40px -40px;
+}
+
+.ls-darkskin .ls-nav-start:hover,
+.ls-darkskin .ls-nav-start-active {
+	background-position: -40px -40px;
+}
+
+.ls-darkskin .ls-nav-stop {
+	background-position:-44px -80px;
+}
+
+.ls-darkskin .ls-nav-stop:hover,
+.ls-darkskin .ls-nav-stop-active {
+	background-position: -78px -80px;
+}
+
+.ls-darkskin .ls-bottom-slidebuttons a {
+	background-position: -68px 0px;
+}
+
+.ls-darkskin .ls-bottom-slidebuttons a.ls-nav-active,
+.ls-darkskin .ls-bottom-slidebuttons a:hover {
+	background-position:-40px 0px;
+}
+
+.ls-darkskin .ls-nav-sideleft {
+	background-position: -150px -150px;	
+}
+
+.ls-darkskin .ls-nav-sideright {
+	background-position: -225px -150px;	
+}
+
+
+
+.ls-darkskin .ls-nav-prev,
+.ls-darkskin .ls-nav-next {
+	width: 20px;
+	height: 60px;
+	z-index: 10000;
+	top: 50%;
+	margin-top: -37px;	
+	position: absolute;
+}
+
+.ls-darkskin .ls-nav-prev {
+	left: 0px;	
+}
+
+.ls-darkskin .ls-nav-next {
+	right: 0px;	
+}
+
+
+
+.ls-darkskin .ls-bottom-slidebuttons,
+.ls-darkskin .ls-bottom-slidebuttons a,
+.ls-darkskin .ls-nav-start,
+.ls-darkskin .ls-nav-stop,
+.ls-darkskin .ls-nav-sides {
+	height: 40px;
+}
+
+.ls-darkskin .ls-bottom-slidebuttons,
+.ls-darkskin .ls-bottom-slidebuttons a,
+.ls-darkskin .ls-nav-start,
+.ls-darkskin .ls-nav-stop,
+.ls-darkskin .ls-nav-sides {
+	display: inline-block;
+}
+
+/*.ls-darkskin .ls-bottom-slidebuttons,
+.ls-darkskin .ls-nav-start,
+.ls-darkskin .ls-nav-stop,
+.ls-darkskin .ls-nav-sides {
+	top: -28px;
+}
+*/
+.ls-darkskin .ls-nav-start,
+.ls-darkskin .ls-nav-stop {
+	width: 30px;
+}
+
+.ls-darkskin .ls-bottom-slidebuttons a {
+	width: 28px;
+}
+
+.ls-darkskin .ls-nav-sides {
+	width: 44px;
+}
+
+
+
+.ls-darkskin .ls-thumbnail-hover {
+	padding: 4px;	
+}
+
+.ls-darkskin .ls-thumbnail-hover {
+	bottom: 40px;
+	margin-left: 1px;
+}
+
+.ls-darkskin .ls-thumbnail-hover-bg {
+	background: #222;
+	box-shadow: 0px 2px 12px -4px black;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+.ls-darkskin .ls-thumbnail-hover span {
+	border: 5px solid #222;
+	margin-left: -5px;
+}
+
+
+
+.ls-darkskin .ls-thumbnail {
+	padding-top: 15px;
+}
+
+.ls-darkskin .ls-thumbnail-inner {
+	padding: 5px;
+	margin-left: -5px;
+	background: #222;
+	box-shadow: 0px 3px 15px -5px #000;
+	-moz-box-shadow: 0px 3px 15px -5px #000;
+	-webkit-box-shadow: 0px 3px 15px -5px #000;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+.ls-darkskin .ls-thumbnail-slide a {
+	margin-right: 5px;
+}
+
+.ls-darkskin .ls-nothumb {
+	background: #333;
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+.ls-darkskin .ls-nav-prev {
+	left:0;
+}
+.ls-darkskin .ls-nav-next {
+	right:0;
+}
+}
+@media only screen and (max-width:767px){
+.ls-darkskin .ls-nav-prev, .ls-darkskin .ls-nav-next {
+	top:54%;
+}
+.ls-bottom-nav-wrapper {
+	bottom:48px;
+}
+.ls-darkskin .ls-playvideo, .ls-darkskin .ls-nav-sides, .ls-darkskin .ls-bottom-slidebuttons a, .ls-darkskin .ls-nav-prev, .ls-darkskin .ls-nav-next, .ls-darkskin .ls-nav-start, .ls-darkskin .ls-nav-stop {
+	background-image:url(skin2.png);
+}
+.ls-darkskin .ls-nav-next , .ls-darkskin .ls-nav-prev{
+	height:26px;
+	width:20px;
+}
+.ls-darkskin .ls-nav-next {
+	background-position:-20px 0px;
+}
+.ls-darkskin .ls-nav-next:hover {
+	background-position:-20px -26px;
+}
+.ls-darkskin .ls-nav-prev {
+	background-position:0 0;
+}
+.ls-darkskin .ls-nav-prev:hover {
+	background-position:0px -26px;
+}
+.ls-darkskin .ls-bottom-slidebuttons a {
+	background-position:-60px -31px;
+	width:20px;
+	height:31px;
+}
+.ls-darkskin .ls-bottom-slidebuttons a.ls-nav-active, .ls-darkskin .ls-bottom-slidebuttons a:hover {
+	background-position:-40px -31px;
+}
+.ls-darkskin .ls-nav-stop {
+	height:31px;
+	width:24px;
+}
+.ls-darkskin .ls-nav-stop {
+	background-position:0 -62px;
+}
+.ls-darkskin .ls-nav-stop:hover,.ls-darkskin .ls-nav-stop-active {
+	background-position:-24px -62px;
+}
+.ls-darkskin .ls-nav-start {
+	background-position:-40px 0px;
+	height:31px;
+	width:22px;
+}
+.ls-darkskin .ls-nav-prev {
+	left:0;
+}
+.ls-darkskin .ls-nav-next {
+	right:0;
+}
+.ls-darkskin .ls-nav-prev, .ls-darkskin .ls-nav-next {
+	top:59%;
+}
+}
+@media only screen and (max-width:620px) {
+.ls-darkskin .ls-nav-prev, .ls-darkskin .ls-nav-next {
+	top:54%;
+}
+.ls-bottom-nav-wrapper {
+	bottom:48px;
+}
+.ls-darkskin .ls-playvideo, .ls-darkskin .ls-nav-sides, .ls-darkskin .ls-bottom-slidebuttons a, .ls-darkskin .ls-nav-prev, .ls-darkskin .ls-nav-next, .ls-darkskin .ls-nav-start, .ls-darkskin .ls-nav-stop {
+	background-image:url(skin2.png);
+}
+.ls-darkskin .ls-nav-next , .ls-darkskin .ls-nav-prev{
+	height:26px;
+	width:20px;
+}
+.ls-darkskin .ls-nav-next {
+	background-position:-20px 0px;
+}
+.ls-darkskin .ls-nav-next:hover {
+	background-position:-20px -26px;
+}
+.ls-darkskin .ls-nav-prev {
+	background-position:0 0;
+}
+.ls-darkskin .ls-nav-prev:hover {
+	background-position:0px -26px;
+}
+.ls-darkskin .ls-bottom-slidebuttons a {
+	background-position:-60px -31px;
+	width:20px;
+	height:31px;
+}
+.ls-darkskin .ls-bottom-slidebuttons a.ls-nav-active, .ls-darkskin .ls-bottom-slidebuttons a:hover {
+	background-position:-40px -31px;
+}
+.ls-darkskin .ls-nav-stop {
+	height:31px;
+	width:24px;
+}
+.ls-darkskin .ls-nav-stop {
+	background-position:0 -62px;
+}
+.ls-darkskin .ls-nav-stop:hover,.ls-darkskin .ls-nav-stop-active {
+	background-position:-24px -62px;
+}
+.ls-darkskin .ls-nav-start {
+	background-position:-40px 0px;
+	height:31px;
+	width:22px;
+}
+.ls-darkskin .ls-nav-prev, .ls-darkskin .ls-nav-next {
+	top:59%;
+}
+}
+@media only screen and (max-width:479px) {
+.ls-darkskin .ls-nav-prev, .ls-darkskin .ls-nav-next {
+	top:54%;
+}
+.ls-bottom-nav-wrapper {
+	bottom:48px;
+}
+.ls-darkskin .ls-playvideo, .ls-darkskin .ls-nav-sides, .ls-darkskin .ls-bottom-slidebuttons a, .ls-darkskin .ls-nav-prev, .ls-darkskin .ls-nav-next, .ls-darkskin .ls-nav-start, .ls-darkskin .ls-nav-stop {
+	background-image:url(skin2.png);
+}
+.ls-darkskin .ls-nav-next , .ls-darkskin .ls-nav-prev{
+	height:26px;
+	width:20px;
+}
+.ls-darkskin .ls-nav-next {
+	background-position:-20px 0px;
+}
+.ls-darkskin .ls-nav-next:hover {
+	background-position:-20px -26px;
+}
+.ls-darkskin .ls-nav-prev {
+	background-position:0 0;
+}
+.ls-darkskin .ls-nav-prev:hover {
+	background-position:0px -26px;
+}
+.ls-darkskin .ls-bottom-slidebuttons a {
+	background-position:-60px -31px;
+	width:20px;
+	height:31px;
+}
+.ls-darkskin .ls-bottom-slidebuttons a.ls-nav-active, .ls-darkskin .ls-bottom-slidebuttons a:hover {
+	background-position:-40px -31px;
+}
+.ls-darkskin .ls-nav-stop {
+	height:31px;
+	width:24px;
+}
+.ls-darkskin .ls-nav-stop {
+	background-position:0 -62px;
+}
+.ls-darkskin .ls-nav-stop:hover,.ls-darkskin .ls-nav-stop-active {
+	background-position:-24px -62px;
+}
+.ls-darkskin .ls-nav-start {
+	background-position:-40px 0px;
+	height:31px;
+	width:22px;
+}
+.ls-darkskin .ls-nav-prev, .ls-darkskin .ls-nav-next {
+	top:67%;
+}
+}

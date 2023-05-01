@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+body, #header, #rsvp .site-content, #registry, #direction .site-content, #photo, #groomsmen .site-content, #bridesmaid {
+	background-color:#593673;
+}
+#ourstory .site-content, #rsvp, #registry .site-content, #direction, #photo .site-content, #groomsmen, #bridesmaid .site-content, footer {
+	background-color:#482661;
+}
+body, a:link, a {
+	color:#96b2d7;
+}
+a:hover, .social-media a:hover {
+	color:#fff;
+}
+#Logo a {
+	background:url(images/logo.png) center;
+}
+.theme-border-big {
+	border:7px solid #9e7fb5;
+}
+.theme-border-big:hover{
+	border:7px solid #9170aa;
+}
+.theme-border {
+	border:5px solid #9e7fb5;
+}
+.theme-border:hover{
+	border:5px solid #9170aa;
+}
+.page-title {
+    background-color: #141015;
+}
+.page-title .parallax-cntr {
+	background:url(images/tree.png) no-repeat fixed 100% -3px;
+}
+.page-title .parallax {
+	background:url(images/petals.png) repeat fixed 80% -3px;
+}
+/* =Home styles
+-------------------------------------------------------------- */
+.hr-grey {
+	background:url(images/hr-gray.png) center no-repeat;
+}
+h1, h2, h3, h4, h5, h6 {
+	color:#fff;
+}
+#wedding, .clients a:hover, #wedding h2, #wedding h6, #wedding h3 {
+	color:#96b2d7;
+}
+.title-bg {
+	background-image: url(images/heart-ico.png), url(images/heading-bg.png);
+}
+/* =mainmenu styles
+-------------------------------------------------------------- */
+nav.main-menu-container {
+	background:url(images/menu-bg.jpg) repeat-x;
+}
+.main-menu-container ul li a, .portfolio-container article h4 a, #wedding h1, .portfolio .title-bg {
+	color:#ffffff;
+}
+.main-menu-container ul li.current_page_item a, .main-menu-container ul li a:hover, #groomsmen figure span {
+	color:#593673;
+}
+.page-bottom-bg {
+	background:url(images/page-bottom-bg.png) center no-repeat;
+}
+/* =rsvp styles
+-------------------------------------------------------------- */
+.rsvp .custom-radio label {
+	background:url(images/radio-btn.png) left bottom no-repeat;
+}
+.rsvp p span, #direction iframe, .ls-fullwidth{
+	background:url(images/bg-border.jpg) repeat;
+}
+.rsvp p span input, .rsvp p span textarea, .rsvp p span select {
+	background-color: #af92c5;
+}
+.mobile-menu { background-color:#633c80; border-color:#82629a; }
+.rsvp p span select, .mobile-menu {
+	background-image:url(images/arrow.png);
+}
+.rsvp p span input:hover, .rsvp p span textarea:hover, .rsvp p span select:hover, textarea:focus, .rsvp p span input:focus, .rsvp p span textarea:focus, .rsvp p span select:focus {
+	background-color: #a383bb;
+}
+.rsvp p.submit-bg span {
+	background:url(images/btn-bg-border.jpg) repeat;
+}
+.rsvp p.submit-bg span input {
+	background-color:#3f2254;
+	color:#f3e4fe;
+}
+.rsvp p.submit-bg span input:hover {
+	background-color:#381c4c;
+}
+/* =Client styles
+-------------------------------------------------------------- */
+.clients .client-one{
+	background-image:url(images/client-1.png);
+	background-repeat:no-repeat;
+}
+.clients .client-two{
+	background-image:url(images/client-2.png);
+	background-repeat:no-repeat;
+}
+.clients .client-three {
+	background-image:url(images/client-3.png);
+	background-repeat:no-repeat;
+}
+#address ul li address.address:before, #address ul li address.iphone:before, #address ul li a.mail:before, .place li:before {
+	color:#9172a8;
+}
+/* =ourstory styles
+-------------------------------------------------------------- */
+.portfolio-container article figure {
+	background:url(images/bg-border.jpg) repeat;
+}
+#ourstory .post-detail {
+	background-color:#795495;
+}
+.portfolio-container article h4 a:hover{
+	color:#96b2d7;
+}
+#ourstory .post-detail h3, #ourstory .post-detail p {
+	color:#96b2d7;
+}
+.ls-fullwidth .ls-playvideo, .ls-fullwidth .ls-nav-sides, .ls-fullwidth .ls-bottom-slidebuttons a, .ls-fullwidth .ls-nav-start, .ls-fullwidth .ls-nav-stop {
+	background-image:url(images/skin.png);
+}
+.ls-fullwidth .ls-nav-prev, .ls-fullwidth .ls-nav-prev:hover, .ls-fullwidth .ls-nav-next, .ls-fullwidth .ls-nav-next:hover {
+	background:url(images/ls_arrow.png) no-repeat;
+}
+.ls-fullwidth .ls-thumbnail-hover-bg {
+	background:#593673;
+}
+.ls-fullwidth .ls-thumbnail-hover span {
+	border: 5px solid #593673;
+}
+
+.timeline .post-detail h2, .page-link > a span { color:#fff; }
+
+.timeline:before { background-color: #fff; }
+
+.right .post-thumb:before { border-color:transparent transparent transparent #fff; }
+.left .post-thumb:after { border-color:transparent #fff transparent transparent; }
+
+.event.right .post-thumb, .event.left .post-thumb { background: url(images/post-thum-dotted-lines.png) repeat-x scroll center 110px rgba(0, 0, 0, 0); }
+
+/* =groomsmen styles
+-------------------------------------------------------------- */
+#groomsmen figure, #bridesmaid figure{
+	background-image: url(images/grooms-bg.png);
+}
+#groomsmen article h4 span, #bridesmaid article h4 span, .social-media a, .clients a, .category-filter li a.active, .category-filter li a:hover{
+	color:#a16cc7;
+}
+#groomsmen figure .thumb:hover, #bridesmaid figure .thumb:hover{
+	background:#694b82;
+}
+#groomsmen figure .thumb, #bridesmaid figure .thumb{
+	background-image:url(images/bg-border.jpg);
+}
+#bridesmaid figure .thumb .social, #groomsmen figure .thumb .social {
+	background:url(images/social-bg.png) bottom no-repeat;
+}
+/* =photo styles
+-------------------------------------------------------------- */
+.category-filter li a.active {
+	background-image: url(images/filter-active.png);
+}
+ul.category-filter li a {
+	color:#ffffff;
+}
+/* =Footer styles
+-------------------------------------------------------------- */
+.social .icon-facebook, .social .icon-twitter {
+	background-color:#d3e1f4;
+	color:#7b475d;
+}
+.social-media a.fb {
+	background-image:url(images/fb.png);
+}
+.social-media a.fb:hover {
+	background-image:url(images/fb.png);
+}
+.social-media a.twit {
+	background-image:url(images/twitter.png);
+}
+.social-media a.twit:hover {
+	background-image:url(images/twitter.png);
+}
+.social-media a.you-tube {
+	background-image:url(images/you-tube.png);
+}
+.social-media a.you-tube:hover {
+	background-image:url(images/you-tube.png);
+}
+@media only screen and (max-width:767px){
+.category-filter li a.active {
+	background-image:none;
+}
+}

@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+.social-media {
+	margin-left:27%;
+	margin-bottom:39px;
+}
+.social-media li {
+	float:left;
+}
+.social-media a.fb, .social-media a.twit, .social-media a.you-tube {
+	position:relative;
+	top:-6px;
+}
+.category-filter {
+	margin-left:12%;
+	margin-bottom:50px;
+	width:78%;
+}
+.category-filter li {
+	float:left;
+}
+.rsvp p.submit-bg span {
+	width:150px;
+}
+#bridesmaid figure .thumb .social, #groomsmen figure .thumb .social { 
+	display:none;
+}
+#bridesmaid figure .thumb:hover .social .icon-facebook, #groomsmen figure .thumb:hover .social .icon-facebook{
+	top:5px;
+}
+#bridesmaid figure .thumb:hover .social .icon-twitter, #groomsmen figure .thumb:hover .social .icon-twitter{
+	top:5px;
+} 
+.hr-grey {
+	border:none !important;
+}
+.portfolio .one-half figure img:hover {
+	height:370px;
+	width:370px;
+	margin-left:0;
+	margin-top:0;
+}
+.title-bg {
+	border-bottom:3px double;
+}

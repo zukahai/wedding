@@ -1,0 +1,138 @@
+#control-panel {
+	position: fixed;
+	left: 0px;
+	top: 150px;
+	width: 115px;
+	z-index: 999;
+	color: #9f9f9f;
+	text-shadow: none;
+	/*background: url(images/control-panel-bottom.png) no-repeat bottom left; */
+	padding-bottom: 15px;
+}
+#control-panel-main {
+	background-color: #ffffff;
+    border-bottom: 1px solid #f3f3f3;
+    border-right: 1px solid #f3f3f3;
+    border-top: 1px solid #f3f3f3;
+    border-top-right-radius: 6px;
+	float:left;
+    width: 115px;
+	-moz-border-radius-topright: 14px;
+	-webkit-border-top-right-radius: 14px;
+	border-top-right-radius: 3px;
+}
+#control-close {
+	background: url(images/control-panel-closebutton.png) no-repeat;
+	display: block;
+    height: 41px;
+    position: absolute;
+    right: -41px;
+    top: 10px;
+    width: 41px;
+}
+.control-open {
+	background: url(images/control-panel-openbutton.png) no-repeat !important;
+}
+#control-inner {
+	box-shadow:	0 0 6px 2px #ededed;
+	float:left;
+	padding: 16px 16px 16px 16px;
+}
+#control-panel h3.control_title {
+	color: #DDDDDD;
+    font-size: 15px;
+    margin-bottom: 0;
+    padding: 2px 0 0;
+    text-align: center;
+    text-shadow: none;
+}
+#control-panel p {
+	font-style: italic;
+	font-size: 10px;
+}
+#control_skin, #control_pattern {
+	margin-top:10px;
+	width: 100px;	
+}
+#control-panel .available-headers, #control-panel .available-skins, #control-panel .available-layouts {
+	margin-bottom:10px;
+	float:left;
+	padding-bottom: 10px;
+	position:relative;
+	width:100%;
+}
+#control-panel .available-headers .defPtrns { 
+	height:20px;
+	margin-bottom:34px;
+	margin-left:34px;
+	width:100% !important;	
+}
+#control-panel .available-headers .default-header, #control-panel .available-skins .default-header , #control-panel .available-styles .default-header{
+	clear: both;
+    display: block;
+    height: 44px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 84px;
+}
+#control-panel .available-headers .default-header img, #control-panel .available-skins .default-header img , .available-styles .default-header img{
+	border:1px solid #D7D7D7;
+	cursor:pointer;	
+	height:40px;
+	width:80px;
+	z-index:10;
+}
+.available-styles .default-header img.selected , #control-panel .available-layouts .default-layout img.selected, .available-styles .default-header img:hover {
+	border:1px solid #afafaf;
+}
+#control-panel .available-headers .default-header img {
+	top:7px;
+}
+#control-panel .available-headers .default-header img.selected, #control-panel .available-skins .default-header img.selected {
+	border-color:#979494;
+}
+#control-panel .available-headers .default-header label, #control-panel .available-skins .default-header label{
+	float:left;
+	margin:9px 9px 0 0;	
+}
+#control-panel .available-headers .default-header label {
+	height:30px;
+}
+#control-panel .available-headers .defPtrns label {
+	margin-top:0px !important;
+}
+#control-panel .available-layouts .default-layout {
+	float:left;
+	width:50%
+}
+#control-panel .available-layouts .default-layout label {
+	float:left;
+	margin:9px 4px 0 0;		
+}
+#control-panel .available-layouts .default-layout img {
+	border:3px solid #d7d7d7;
+	cursor:pointer;	
+	height:43px;
+	width:62px;
+	z-index:10;
+}
+#colorSelector div {
+	background: url(images/select.png) center;
+	cursor: pointer;
+    height: 30px;
+    position: absolute;
+    right: 7px;
+    top: -24px;
+    width: 30px;
+}
+.controlform label{
+	color: #868686;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 8px;
+	text-align:center;
+    width: 80px;
+}

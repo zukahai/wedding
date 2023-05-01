@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+.main-menu-container ul li a {
+	padding:10px 8px;
+}
+#groomsmen figure span, #groomsmen figure span img, #bridesmaid figure span, #bridesmaid figure span img {
+	border-radius:0;
+}
+#bridesmaid figure .thumb .social, #groomsmen figure .thumb .social {
+	display:none;
+} 
+#bridesmaid figure .thumb:hover .social, #groomsmen figure .thumb:hover .social {
+	display:block;
+}
+.social .icon-facebook, .social .icon-twitter {
+	bottom:7px;
+}
+#bridesmaid figure .thumb:hover .social .icon-facebook, #groomsmen figure .thumb:hover .social .icon-facebook{
+	top:5px;
+}
+#bridesmaid figure .thumb:hover .social .icon-twitter, #groomsmen figure .thumb:hover .social .icon-twitter{
+	top:5px;
+}
+.portfolio .one-half figure img:hover {
+	height:370px;
+	width:370px;
+	margin-left:0;
+	margin-top:0;
+}
+.title-bg {
+	border-bottom:3px double;
+}

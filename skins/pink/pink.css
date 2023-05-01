@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+body, #header, #rsvp .site-content, #registry, #direction .site-content, #photo, #groomsmen .site-content, #bridesmaid {
+	background-color:#f5ebef;
+}
+#ourstory .site-content, #rsvp, #registry .site-content, #direction, #photo .site-content, #groomsmen, #bridesmaid .site-content, footer {
+	background-color:#f5ebef;
+}
+#Logo a {
+	background:url(images/logo.png) center;
+}
+.theme-border-big {
+	border:7px solid #e29dbb;
+}
+.theme-border-big:hover{
+	border:7px solid #c36b90;
+}
+.theme-border {
+	border:5px solid #e29dbb;
+}
+.theme-border:hover{
+	border:5px solid #c36b90;
+}
+.page-title {
+    background-color: #160f10;
+}
+.page-title .parallax-cntr {
+	background:url(images/tree.png) no-repeat fixed 100% -3px ;
+}
+.page-title .parallax {
+	background:url(images/petals.png) repeat fixed 80% -3px;
+}
+/* =Home styles
+-------------------------------------------------------------- */
+.hr-grey {
+	background:url(images/hr-gray.png) center no-repeat;
+}
+h1, h2, h3, h4, h5, h6, .clients a:hover, #address ul li address.address:before, #address ul li address.iphone:before, #address ul li a.mail:before, .place li:before {
+	color: #535353;
+}
+.title-bg {
+	background-image: url(images/heart-ico.png), url(images/heading-bg.png);
+}
+/* =mainmenu styles
+-------------------------------------------------------------- */
+nav.main-menu-container {
+	background:url(images/menu-bg.jpg) repeat-x;
+}
+.main-menu-container ul li.current_page_item a, .main-menu-container ul li a:hover {
+	color:#c46d92;
+}
+#ourstory {
+	background-color:#f5ebef ;
+}
+.page-bottom-bg {
+	background:url(images/page-bottom-bg.png) center no-repeat;
+}
+
+/* =Footer styles
+-------------------------------------------------------------- */
+.social-media a{
+	color:#994067;
+}
+/* =registry styles
+-------------------------------------------------------------- */
+.clients a {
+    color: #994067;
+}
+/* =rsvp styles
+-------------------------------------------------------------- */
+.rsvp .custom-radio label {
+	background:url(images/radio-btn.png) left bottom no-repeat;
+}
+.rsvp p span, #direction iframe{
+	background:url(images/bg-border.jpg) repeat;
+}
+.rsvp p span input, .rsvp p span textarea, .rsvp p span select {
+	background-color: #E29DBB;
+}
+.mobile-menu { background-color:#e29dbb; border-color:#b77d96; }
+
+.rsvp p span select, .mobile-menu {
+	background-image:url(images/arrow.png);
+}
+.rsvp p span input:hover, .rsvp p span textarea:hover, .rsvp p span select:hover, textarea:focus, .rsvp p span input:focus, .rsvp p span textarea:focus, .rsvp p span select:focus {
+	background-color: #d582a6;
+}
+.rsvp p.submit-bg span {
+	background:url(images/btn-bg-border.jpg) repeat;
+}
+.rsvp p.submit-bg span input {
+	background-color:#994067;
+	color:#f5ebef;
+}
+.rsvp p.submit-bg span input:hover {
+	background-color:#91385f;
+}
+/* =ourstory styles
+-------------------------------------------------------------- */
+.portfolio-container article figure {
+	background:url(images/bg-border.jpg) repeat;
+}
+#ourstory .post-detail {
+	background-color:#cd8da7;
+}
+.portfolio-container article h4 a:hover{
+	color:#e29dbb;
+}
+#ourstory .post-detail h3 {
+	color:#F5EBEF;
+}
+#ourstory .post-detail p{
+	color:#f5ebef;
+}
+a, #groomsmen figure span, #address ul li a:hover{
+	color:#c46d92;
+}
+.ls-fullwidth .ls-playvideo, .ls-fullwidth .ls-nav-sides, .ls-fullwidth .ls-bottom-slidebuttons a, .ls-fullwidth .ls-nav-start, .ls-fullwidth .ls-nav-stop {
+	background-image:url(images/skin.png);
+}
+.ls-fullwidth .ls-nav-prev, .ls-fullwidth .ls-nav-prev:hover, .ls-fullwidth .ls-nav-next, .ls-fullwidth .ls-nav-next:hover {
+	background:url(images/ls_arrow.png) no-repeat;
+}
+.ls-fullwidth .ls-thumbnail-hover-bg {
+	background:#fb48a3;
+}
+.ls-fullwidth .ls-thumbnail-hover span {
+	border: 5px solid #fb48a3;
+}
+
+.timeline:before { background-color: #2C3840; }
+
+.event.right .post-thumb, .event.left .post-thumb { background: url(images/post-thum-dotted-lines.png) repeat-x scroll center 110px rgba(0, 0, 0, 0); }
+
+.right .post-thumb:before { border-color:transparent transparent transparent #2C3840; }
+.left .post-thumb:after { border-color:transparent #2C3840 transparent transparent; }
+
+.timeline .post-detail h2, .page-link > a span {  color: #FFFFFF; }
+
+/* =Client styles
+-------------------------------------------------------------- */
+.clients .client-one{
+	background-image:url(images/client-1.png);
+	background-repeat:no-repeat;
+}
+.clients .client-two{
+	background-image:url(images/client-2.png);
+	background-repeat:no-repeat;
+}
+.clients .client-three {
+	background-image:url(images/client-3.png);
+	background-repeat:no-repeat;
+}
+/* =groomsmen styles
+-------------------------------------------------------------- */
+#groomsmen figure, #bridesmaid figure{
+	background-image: url(images/grooms-bg.png);
+}
+#groomsmen article h4 span, #bridesmaid article h4 span{
+	color:#994067;
+}
+#groomsmen figure .thumb:hover, #bridesmaid figure .thumb:hover{
+	background:#cd4c84;
+}
+#groomsmen figure .thumb, #bridesmaid figure .thumb, .ls-fullwidth{
+	background-image:url(images/bg-border.jpg);
+}
+#bridesmaid figure .thumb .social, #groomsmen figure .thumb .social {
+	background:url(images/social-bg.png) bottom no-repeat;
+}
+/* =photo styles
+-------------------------------------------------------------- */
+.category-filter li a.active {
+	background-image: url(images/filter-active.png);
+}
+.category-filter li a.active, .category-filter li a:hover {
+	color:#c46d92;
+}
+ul.category-filter li a {
+	color:#4F4039;
+}
+.social .icon-facebook, .social .icon-twitter {
+	background-color:#f6e5ec;
+	color:#7b475d;
+}
+@media only screen and (max-width:767px){
+.category-filter li a.active {
+	background-image:none;
+}
+}
