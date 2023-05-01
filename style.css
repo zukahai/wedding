@@ -1,6 +1,20 @@
 @charset "utf-8";
 
 @font-face {
+    font-family: 'SanFranciscoDisplay';
+    src: url('./font/SanFranciscoDisplay-Black.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SanFranciscoDisplay-Light';
+    src: url('./font/SaSanFranciscoDisplay-Light.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'NVN-Motherland-Signature';
     src: url('./font/NVN-Motherland-Signature.ttf') format('truetype');
     font-weight: normal;
@@ -356,9 +370,9 @@ body, input[type="text"], textarea, input[type="submit"], input[type="reset"] {
 	font-weight:normal;
 }
 .invite {
-	font-family: 'Great Vibes', cursive;
+	font-family: 'SanFranciscoDisplay-Light', cursive;
 }
-.footer-contact p, .main-menu-container ul li a, #wedding h2, .timeline .post-detail h2, .contact-details h3, ul.category-filter li a, .portfolio-container article h4 a, h3 { font-family: 'NVN-Motherland-Signature', cursive; }
+.footer-contact p, .main-menu-container ul li a, #wedding h2, .timeline .post-detail h2, .contact-details h3, ul.category-filter li a, .portfolio-container article h4 a, h3 { font-family: 'SanFranciscoDisplay', cursive; }
 /* =Main menu styles
 -------------------------------------------------------------- */
 #header {
@@ -443,7 +457,7 @@ nav.main-menu-container {
 	text-align:center;
 }
 #wedding h1 {
-	font-size:50px;
+	font-size:70px;
 	font-weight:normal;
 	margin-bottom:11px;
 }

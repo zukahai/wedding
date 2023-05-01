@@ -68,16 +68,14 @@
                 <div class="container">
                     <div class="float-left main-menu" id="LeftNav">
                         <ul class="float-right menu">
-                            <li class="menu-item current_page_item"><a href="#home">home</a></li>
+                            <li class="menu-item current_page_item"><a href="#home">Trang chủ</a></li>
                             <li class="menu-item"><a href="#ourstory">our story</a></li>
-                            <li class="menu-item"><a href="#rsvp">rsvp</a></li>
-                            <li class="menu-item"><a href="#registry">registry</a></li>
                         </ul>
                     </div>
                     <div class="float-right main-menu" id="RightNav">
                         <ul class="float-left menu">
-                            <li class="menu-item"><a href="#direction">direction</a></li>
-                            <li class="menu-item"><a href="#photo">photo</a></li>
+                            <li class="menu-item"><a href="#direction">Địa điểm</a></li>
+                            <li class="menu-item"><a href="#photo">Ảnh</a></li>
                       </ul>
                   </div>
                 </div>
@@ -209,110 +207,12 @@
 			</div>
 		</section>
         <!-- ======================= ourstory content Ends ======================= -->
-        <!-- ======================= rsvp content Starts ======================= -->
-		<section id="rsvp" class="content">
-            <div class="page-title">
-            	<div class="parallax-cntr">
-                    <div class="parallax">
-                        <h2 class="hr-white">rsvp</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="site-content">
-                <div class="container">
-                    <header>
-                        <span class="SectionHead aligncenter-text">Please RSVP before 28 Feb 2013</span>
-                        <div id="ajax_message"></div>
-                    </header>
-                    <form id="frmrsvp" name="frmrsvp" action="js/send.php" class="rsvp" method="post">
-                        <p class="twocolumn">
-                            <label for="fname">Name</label><br>
-                            <span><input type="text" value="first name" onFocus="if (this.value == 'first name') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'first name';}" id="fname" name="fname"  pattern="[a-zA-Z0-9_-]{6,12}" required=""></span>
-                            <span class="last"><input type="text" value="last name" onFocus="if (this.value == 'last name') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'last name';}" id="lname" name="lname"></span>
-                        </p>
-                        <p>
-                            <label for="email">Enter your e-mail</label><br>
-                            <span><input type="email" value="e-mail" onFocus="if (this.value == 'e-mail') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'e-mail';}" id="email" name="email" required></span>
-                        </p>
-                        <p class="float-right last">
-                            <span><textarea cols="20" rows="1" onFocus="if (this.value == 'leave us a message') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'leave us a message';}" id="txtmessage" name="txtmessage" required="">leave us a message</textarea></span>
-                        </p>
-                        <div class="custom-radio-wrapper"><label>Will you joining us?</label>
-                            <div class="custom-radio">
-                                <input type="radio" id="yes" name="rsvp" value="yes" > 
-                                <label for="yes">yes</label>
-                                <input type="radio" id="no" name="rsvp" value="no">
-                                <label for="no">No</label>
-                            </div>
-                        </div>
-                        <div class="custom-select">
-                            <p>
-                                <label>No of Guests</label>
-                                <span>
-                                    <select name="cmbguests">
-                                        <option value="">Select Number</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>                                                                                
-                                    </select>
-                                </span>
-                            </p>
-                            <p class="float-right last">                    
-                                <span><textarea cols="20" rows="1" onFocus="if (this.value == 'Names of the Guests') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Names of the Guests';}" id="txtguestnames" name="txtguestnames" required>Names of the Guests</textarea></span>
-                            </p>
-                        </div>
-                        <p class="submit-bg last">
-                            <span><input type="submit" name="submit" value="add rsvp"></span>
-                        </p>
-                    </form>
-                </div>
-            </div>
-        </section>
-        <!-- ======================= rsvp content Ends ======================= -->
-        <!-- ======================= registry content Starts ======================= -->
-		<section id="registry" class="content">
-            <div class="page-title">
-	            <div class="parallax-cntr">
-                    <div class="parallax">
-                        <h2 class="hr-white">registry</h2>
-                    </div>
-                </div>
-            </div>
-             <div class="site-content">
-                <div class="container">
-                    <header>
-                        <span class="SectionHead aligncenter-text">We are registered for gifts at these fine retail establishments:</span>
-                    </header>
-                     <div class="clients">
-                        <article class="one-third column">
-                            <figure><a href="#" class="client-one"></a></figure>
-                            <h5>Create and Barrel</h5>  
-                            <a href="#">GO TO STORE</a>          
-                        </article>
-                        <article class="one-third column">
-                            <figure><a href="#" class="client-two"></a></figure>
-                            <h5>Target</h5>
-                            <a href="#">GO TO STORE</a> 
-                        </article>
-                        <article class="one-third column last">
-                            <figure><a href="#" class="client-three"></a></figure>
-                            <h5>Bed Bath &amp; Beyond</h5>
-                            <a href="#">GO TO STORE</a> 
-                        </article>
-                    </div> 
-                    <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel laoreet purus. Praesent metus mauris, iaculis vitae cursus sed, gravida sed orci. Etiam vitae dui et dolor posuere ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla ornare dolor id massa sagittis euismod. Maecenas placerat tristique iaculis. Aliquam congue diam at nulla sollicitudin sollicitudin. <br><cite>-wedesignthemes</cite> </blockquote>
-                    <div class="hr_invisible medium"></div>
-                </div>
-            </div> 
-        </section> 
-        <!-- ======================= registry content Ends ======================= -->
         <!-- ======================= direction content Starts ======================= -->
 		<section id="direction" class="content">
             <div class="page-title">
             	<div class="parallax-cntr">
                     <div class="parallax">
-                        <h2 class="hr-white">direction</h2>
+                        <h2 class="hr-white">Hôn lễ tổ chức tại</h2>
                     </div>
                 </div>
             </div>
@@ -373,7 +273,7 @@
                     <div class="portfolio-container">
                         <article class="location">
                             <figure class="grayscale">
-                            	<a href="http://placehold.it/590x395" title="portfolio11" class="prettyPhoto">
+                            	<a href="http://placehold.it/590x395" title="Anh Tuấn + Thị Phượng" class="prettyPhoto">
                                 	<img src="http://placehold.it/290x205" alt="" title="" width="290" height="205">
                                 </a>
                             </figure>
@@ -382,7 +282,7 @@
                         </article>
                         <article class="bachelor location">
                             <figure  class="grayscale">
-                                <a href="http://placehold.it/590x395" title="portfolio11" class="prettyPhoto">
+                                <a href="http://placehold.it/590x395" title="Anh Tuấn + Thị Phượng" class="prettyPhoto">
 	                                <img src="http://placehold.it/290x205" alt="" title="" width="290" height="205">
                                 </a>
                             </figure>
@@ -391,7 +291,7 @@
                         </article>
                         <article class="bridal pre-marriage">
                             <figure  class="grayscale">
-                                <a href="http://placehold.it/590x395" title="portfolio11" class="prettyPhoto">
+                                <a href="http://placehold.it/590x395" title="Anh Tuấn + Thị Phượng" class="prettyPhoto">
 	                                <img src="http://placehold.it/290x205" alt="" title="" width="290" height="205">
                                 </a>
                             </figure>
@@ -400,7 +300,7 @@
                         </article>
                         <article class="reception bachelor">
                             <figure class="grayscale">
-                                <a href="http://placehold.it/590x395" title="portfolio11" class="prettyPhoto">
+                                <a href="http://placehold.it/590x395" title="Anh Tuấn + Thị Phượng" class="prettyPhoto">
 	                                <img src="http://placehold.it/290x205" alt="" title="" width="290" height="205">
                                 </a>
                             </figure>
@@ -409,7 +309,7 @@
                         </article>
                         <article class="bachelor bridal">
                             <figure class="grayscale">
-                                <a href="http://placehold.it/590x395" title="portfolio11" class="prettyPhoto">
+                                <a href="http://placehold.it/590x395" title="Anh Tuấn + Thị Phượng" class="prettyPhoto">
 	                                <img src="http://placehold.it/290x205" alt="" title="" width="290" height="205">
                                 </a>
                             </figure>
@@ -418,7 +318,7 @@
                         </article>
                         <article class="pre-marriage reception">
                             <figure class="grayscale">
-                                <a href="http://placehold.it/590x395" title="portfolio11" class="prettyPhoto">
+                                <a href="http://placehold.it/590x395" title="Anh Tuấn + Thị Phượng" class="prettyPhoto">
 	                                <img src="http://placehold.it/290x205" alt="" title="" width="290" height="205">
                                 </a>
                             </figure>
@@ -430,133 +330,6 @@
             </div>
         </section> 
         <!-- ======================= photo content Ends ======================= -->
-        <!-- ======================= groomsmen content Starts ======================= -->
-        <section id="groomsmen" class="content">
-            <div class="page-title">
-            	<div class="parallax-cntr">
-                    <div class="parallax">
-                        <h2 class="hr-white">Groomsmen</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="site-content">
-                <div class="container">
-                    <article>
-                        <figure class="float-right entry-thumb">
-                        	<div class="thumb">
-                                <a href="#"><img src="http://placehold.it/180x235" alt="" title=""></a>
-                                <div class="social">
-                                    <a href="#" class="icon-facebook"></a>
-                                    <a href="#" class="icon-twitter"></a>
-                                </div>
-                            </div>
-</figure>
-                        <div class="entry-detail">
-                            <h4>Tim Reynolds <span>Best Man</span> </h4> 
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                            <p> To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure? </p>
-                        </div>
-                    </article>
-                    <article>
-                        <figure class="float-left entry-thumb">
-                        	<div class="thumb">
-                                <a href="#"><img src="http://placehold.it/180x235" alt="" title=""></a>
-                                <div class="social">
-                                    <a href="#" class="icon-facebook"></a>
-                                    <a href="#" class="icon-twitter"></a>
-                                </div>
-                            </div>
-</figure>
-                        <div class="entry-detail">
-                            <h4>David Jones <span>Best Man</span> </h4> 
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                            <p> To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure? </p>
-                        </div>
-                    </article> 
-                    <article>
-                        <figure class="float-right entry-thumb">
-                        	<div class="thumb">
-                                <a href="#"><img src="http://placehold.it/180x235" alt="" title=""></a>
-                                <div class="social">
-                                    <a href="#" class="icon-facebook"></a>
-                                    <a href="#" class="icon-twitter"></a>
-                                </div>
-                            </div>
-</figure>
-                        <div class="entry-detail">
-                            <h4>Tim Reynolds <span>Best Man</span> </h4> 
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                            <p> To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure? </p>
-                        </div>
-                    </article>  
-                </div>
-            </div>
-        </section>
-        <!-- ======================= Groomsmen Ends ======================= -->
-        <!-- ======================= Bridesmaid Starts ======================= -->
-        <section id="bridesmaid" class="content">
-            <div class="page-title">
-            	<div class="parallax-cntr">
-                    <div class="parallax">
-                        <h2 class="hr-white">bridesmaid</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="site-content">
-                <div class="container">
-                    <article>
-                        <figure class="float-left entry-thumb">
-                        	<div class="thumb">
-                                <a href="#"><img src="http://placehold.it/180x235" alt="" title=""></a>
-                                <div class="social">
-                                    <a href="#" class="icon-facebook"></a>
-                                    <a href="#" class="icon-twitter"></a>
-                                </div>
-                            </div>
-</figure>
-                        <div class="entry-detail">
-                            <h4>Taylor Vixen <span>Maid of Honour</span> </h4> 
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                            <p> To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure? </p>
-                        </div>
-                    </article>
-                    <article>
-                        <div class="entry-detail">
-                            <h4>Jasmine Penelpope <span>Brides Maid</span> </h4> 
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                            <p> To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure? </p>
-                        </div>
-                        <figure class="float-right entry-thumb">
-                        	<div class="thumb">
-                            <a href="#"><img src="http://placehold.it/180x235" alt="" title=""></a>
-                            <div class="social">
-                                <a href="#" class="icon-facebook"></a>
-                                <a href="#" class="icon-twitter"></a>
-                            </div>
-                            </div>
-                        </figure>
-                    </article>
-                    <article>
-                        <figure class="float-left entry-thumb">
-                            <div class="thumb">
-								<a href="#"><img src="http://placehold.it/180x235" alt="" title=""></a>
-                                <div class="social">
-                                    <a href="#" class="icon-facebook"></a>
-                                    <a href="#" class="icon-twitter"></a>
-                                </div>
-                            </div>
-</figure>
-                        <div class="entry-detail">
-                            <h4>Julius Mc Carthy <span>Brides Maid</span> </h4> 
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                            <p> To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure? </p>
-                        </div>
-                    </article>
-                </div>
-                <div class="hr_invisible large"></div>
-            </div>
-        </section>
-        <!-- ======================= Bridesmaid Ends ======================= -->
         <!-- ======================= footer Starts ======================= -->
         <footer>
             <div class="container">
@@ -570,7 +343,6 @@
                         <li><a href="#" class="twit"></a></li>
                         <li><a href="#" class="you-tube"></a></li>
                     </ul>
-                    <p>Catherene &amp; William 23 Feb 2013. Site design by Design Themes</p>
                 </div>
             </div>
         </footer>
