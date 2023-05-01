@@ -35,10 +35,10 @@ p {
 	width:270px;
 	object-fit: cover;
 }
-.portfolio .one-half figure img:hover {
-	margin-left:-45px;
-	margin-top:-20px;
-}
+/* .portfolio .one-half figure img:hover {
+	/* margin-left:-45px;
+	margin-top:-20px; */
+} */
 .title-bg {
 	font-size:35px;
 }

@@ -533,9 +533,7 @@ nav.main-menu-container {
 	transition: all 1s ease;
 }
 .portfolio .one-half figure img:hover {
-	border-radius:50%;
-	height:450px;
-	width:450px;
+	transform: scale(1.5);
 	/* margin-left:-50px; */
 	/* margin-top:-5px; */
 	/* scale: 1.1; */
