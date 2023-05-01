@@ -366,7 +366,7 @@ nav.main-menu-container {
 	font-family: 'Oswald', sans-serif;
 }
 body, input[type="text"], textarea, input[type="submit"], input[type="reset"] {
-	font-family: 'Domine', serif;
+	font-family: 'SanFranciscoDisplay-Light', serif;
 	font-weight:normal;
 }
 .invite {
@@ -472,7 +472,7 @@ nav.main-menu-container {
 }
 #wedding h6 {
 	font-size:20px;
-	margin-bottom:20px;
+	margin-top:20px;
 	display:block;
 }
 .invite {
