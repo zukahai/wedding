@@ -213,39 +213,6 @@
 		Facebook style Theme
 	----------------------------------- */
 	
-	div.facebook .pp_top .pp_left { background: url(prettyPhoto/facebook/sprite.png) -88px -53px no-repeat; } /* Top left corner */
-	div.facebook .pp_top .pp_middle { background: url(prettyPhoto/facebook/contentPatternTop.png) top left repeat-x; } /* Top pattern/color */
-	div.facebook .pp_top .pp_right { background: url(prettyPhoto/facebook/sprite.png) -110px -53px no-repeat; } /* Top right corner */
-	
-	div.facebook .pp_content .ppt { color: #000; }
-	div.facebook .pp_content_container .pp_left { background: url(prettyPhoto/facebook/contentPatternLeft.png) top left repeat-y; } /* Content background */
-	div.facebook .pp_content_container .pp_right { background: url(prettyPhoto/facebook/contentPatternRight.png) top right repeat-y; } /* Content background */
-	div.facebook .pp_content { background: #fff; } /* Content background */
-	div.facebook .pp_expand { background: url(prettyPhoto/facebook/sprite.png) -31px -26px no-repeat; cursor: pointer; } /* Expand button */
-	div.facebook .pp_expand:hover { background: url(prettyPhoto/facebook/sprite.png) -31px -47px no-repeat; cursor: pointer; } /* Expand button hover */
-	div.facebook .pp_contract { background: url(prettyPhoto/facebook/sprite.png) 0 -26px no-repeat; cursor: pointer; } /* Contract button */
-	div.facebook .pp_contract:hover { background: url(prettyPhoto/facebook/sprite.png) 0 -47px no-repeat; cursor: pointer; } /* Contract button hover */
-	div.facebook .pp_close { width: 22px; height: 22px; background: url(prettyPhoto/facebook/sprite.png) -1px -1px no-repeat; cursor: pointer; } /* Close button */
-	div.facebook .pp_details { position: relative; }
-	div.facebook .pp_description { margin: 0 37px 0 0; }
-	div.facebook #pp_full_res .pp_inline { color: #000; } 
-	div.facebook .pp_loaderIcon { background: url(prettyPhoto/facebook/loader.gif) center center no-repeat; } /* Loader icon */
-	
-	div.facebook .pp_arrow_previous { background: url(prettyPhoto/facebook/sprite.png) 0 -71px no-repeat; height: 22px; margin-top: 0; width: 22px; } /* The previous arrow in the bottom nav */
-		div.facebook .pp_arrow_previous.disabled { background-position: 0 -96px; cursor: default; }
-	div.facebook .pp_arrow_next { background: url(prettyPhoto/facebook/sprite.png) -32px -71px no-repeat; height: 22px; margin-top: 0; width: 22px; } /* The next arrow in the bottom nav */
-		div.facebook .pp_arrow_next.disabled { background-position: -32px -96px; cursor: default; }
-	div.facebook .pp_nav { margin-top: 0; }
-	div.facebook .pp_nav p { font-size: 15px; padding: 0 3px 0 4px; }
-	div.facebook .pp_nav .pp_play { background: url(prettyPhoto/facebook/sprite.png) -1px -123px no-repeat; height: 22px; width: 22px; }
-	div.facebook .pp_nav .pp_pause { background: url(prettyPhoto/facebook/sprite.png) -32px -123px no-repeat; height: 22px; width: 22px; }
-	
-	div.facebook .pp_next:hover { background: url(prettyPhoto/facebook/btnNext.png) center right no-repeat; cursor: pointer; } /* Next button */
-	div.facebook .pp_previous:hover { background: url(prettyPhoto/facebook/btnPrevious.png) center left no-repeat; cursor: pointer; } /* Previous button */
-	
-	div.facebook .pp_bottom .pp_left { background: url(prettyPhoto/facebook/sprite.png) -88px -80px no-repeat; } /* Bottom left corner */
-	div.facebook .pp_bottom .pp_middle { background: url(prettyPhoto/facebook/contentPatternBottom.png) top left repeat-x; } /* Bottom pattern/color */
-	div.facebook .pp_bottom .pp_right { background: url(prettyPhoto/facebook/sprite.png) -110px -80px no-repeat; } /* Bottom right corner */
 
 
 /* ------------------------------------------------------------------------
@@ -412,12 +379,7 @@
 				padding: 0;
 			}
 			
-			.pp_gallery li.default a {
-				background: url(prettyPhoto/facebook/default_thumbnail.gif) 0 0 no-repeat;
-				display: block;
-				height: 33px;
-				width: 50px;
-			}
+			
 			
 			.pp_gallery li.default a img { display: none; }
 			
@@ -523,3 +485,5 @@
 			margin: 0 0 5px 15px;
 			z-index: 9999;
 		}
+
+		.pp_social{visibility: hidden!important;}

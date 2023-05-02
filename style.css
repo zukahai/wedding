@@ -20,6 +20,13 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Gelasio-Regular';
+    src: url('./font/Gelasio-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 /* CSS Document */
 
 /* =Reset default CSS Styles.
@@ -458,17 +465,18 @@ nav.main-menu-container {
 	text-align:center;
 }
 #wedding h1 {
-	font-size:40px;
+	font-size:50px;
 	font-weight:normal;
 	margin-bottom:11px;
 }
-#wedding h2 {
-	font-size:30px;
-}
+
 #wedding h2, #wedding h6, #wedding h3, .portfolio .title-bg {
 	font-family: 'SanFranciscoDisplay-Light', serif;
 	font-size: 20px;
 	font-weight:300;
+}
+#wedding h2 {
+	font-size:30px;
 }
 #wedding h3 {
 	font-size:25px;
@@ -480,7 +488,7 @@ nav.main-menu-container {
 }
 .invite {
 	display:inline-block;
-	font-family: 'SanFranciscoDisplay-Light', serif;
+	font-family: 'Gelasio-Regular', serif;
 	/* font-size:25px; */
 	margin-top:10px;
 }
