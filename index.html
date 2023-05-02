@@ -68,17 +68,16 @@
 
         function play() {
             var audio = document.getElementById("audio");
+            audio.volume = 0.2;
             if (audio.paused) {
               audio.play();
             }
         }
-        var audio = new Audio('./sound/ido-ducphuc.mp3');
-audio.play()
       </script>
 </head>
 
 <body onmousedown="play()">
-      <audio id="audio" src="./sound/ido-ducphuc.mp3"></audio>
+      <audio id="audio" src="./sound/ido-ducphuc.mp3" loop="loop" autoplay></audio>
 	<!-- ======================= wrapper starts ======================= -->
     <div class="wrapper">
     	<!-- ======================= header starts ======================= -->
